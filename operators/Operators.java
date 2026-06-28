@@ -42,11 +42,23 @@ public class Operators {
        // System.out.println(b1 + " | " + b2 + " = "  + expression2);
 
         
-       int num1 = 10;
-       int num2 = 11;
+       // int num1 = 10;
+       // int num2 = 11;
 
-       boolean expression = (num1++ >= num2) && (num1++ == num2);
-       System.out.println(expression);
-       System.out.println(num1);
+       // boolean expression = (num1++ >= num2) && (num1++ == num2);
+       // System.out.println(expression);
+       // System.out.println(num1);
+
+       System.out.print();
+
+       //Ternary Operator
+       
+       int num1 = 10;
+       int num2 = 20;
+
+       int max = (num1 > num2) ? num1 : num2;
+
+       System.out.println(max);
+        
    }
 }
